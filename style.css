@@ -19,11 +19,12 @@ Input Border Bottom (Focus): #967343*/
 
 body {
   background-color: #F2F1E8;
+  margin: 0px;
+  padding: 0px;
 }
 h1, h3 {
   display: flex;
   justify-content: center;
-  /*text-align: center;*/
   font-family: Merriweather;
   padding: 10px;
   margin: 0px;
@@ -31,47 +32,97 @@ h1, h3 {
 h1 {
   font-size: 350%;
   font-weight: 400;
+  margin-top: 50px;
 }
 h3 {
   font-size: 200%;
   font-weight: lighter;
+  padding: 10px;
 }
-
-img {
-
+#main-navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#main-navigation a {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #logo{
-    /*max-width: 30%;*/
-    width: 50px;
+    width: 40px;
     padding: 0px;
     margin: 0;
 }
 .products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
+.wide {
+  width: 600px;
+  height: 300px;
+  padding: 5px;
 }
-#main-navigation a {
+.tall {
+  width: 200px;
+  height: 300px;
+  padding: 5px
+}
+.square {
+  height:200px;
+  width: 200px;
+  padding: 5px;
+  object-fit: cover;
+  clip: rect(0px,60px,200px,0px);
+}
+.rect {
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+}
+a {
   font-family: Roboto;
   color: #2B2F26;
   text-transform: uppercase;
-  /*display:flex;*/
-
-
 }
-
-#logo a {
-    display: flex;
-    align-content: : space-between;
-
+a:hover {
+  color: #CD5D67;
 }
-
+.site-header{
+  /*display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;*/
+}
 .wrapper{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: #FFFFFF;
-    padding: 30px;
+    padding: 10px;
+}
+.birdhouse {
+  float: left;
+  max-width: 100px;
+}
 
+blockquote {
+  font-style: italic;
+}
+.plant {
+  width: 1300px;
+  height: 800px;
+}
 
+.pots {
+  float: right;
+  max-width: 100px;
+}
+
+table {
+  border: 1px solid;
+  border-collapse: collapse;
 }
