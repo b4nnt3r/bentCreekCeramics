@@ -36,11 +36,20 @@ h3 {
   font-size: 200%;
   font-weight: lighter;
 }
+
+img {
+
+}
 #logo{
     /*max-width: 30%;*/
     width: 50px;
     padding: 0px;
     margin: 0;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 }
 #main-navigation a {
@@ -55,7 +64,7 @@ h3 {
 #logo a {
     display: flex;
     align-content: : space-between;
-    flex-wrap: wrap;
+
 }
 
 .wrapper{
@@ -63,5 +72,6 @@ h3 {
     margin: 0 auto;
     background-color: #FFFFFF;
     padding: 30px;
+
 
 }
