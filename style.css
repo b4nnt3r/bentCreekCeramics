@@ -22,6 +22,7 @@ body {
   margin: 0px;
   padding: 0px;
   color: #131511;
+
 }
 h1, h3 {
   display: flex;
@@ -40,15 +41,31 @@ h3 {
   font-weight: lighter;
   padding: 10px;
 }
+h4 span{
+   background-color: #2B2F26;
+   font-family: Merriweather;
+   font-weight: lighter;
+   font-size: 120%;
+   padding: 10px;
+   color: white;
+   display: flex;
+   flex: 1;
+   
+}
+img {
+
+}
 #main-navigation {
-  display: inline-block;
+  /*display: inline-block;*/
   /*display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;*/
 }
 #main-navigation a {
-  display: inline-block;
+  margin: 10px;
+  display: flex;
+
   /*display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -69,8 +86,7 @@ h3 {
   margin: 50px;
   padding: 5px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
 }
 .wide {
   width: 600px;
