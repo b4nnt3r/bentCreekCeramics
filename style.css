@@ -84,16 +84,18 @@ p {
 }
 
 .products {
-  margin: 100px;
-  padding: 100px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .parent1 {
   display: flex;
+  justify-content: center;
 }
 
 .parent2 {
   display: flex;
+  justify-content: center;
 }
 
 .stacking {
@@ -109,18 +111,24 @@ img {
   /*display: block;*/
 }
 
-#main-navigation {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.wrapper {
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
 }
 
-.anchor {
+#main-navigation .home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/*.anchor {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 
 #logo {
   max-height: 40px;
@@ -164,12 +172,6 @@ a:hover {
   color: #CD5D67;
 }
 
-.wrapper {
-  width: 100%;
-  margin: 0;
-  background-color: #FFFFFF;
-}
-
 .birdhouse {
   float: left;
   max-width: 100px;
@@ -182,13 +184,20 @@ blockquote {
   padding: 15px;
 }
 
-.plant {
-  width: 100%;
-  height: 30em;
-}
-
 .r2g {
   color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.plant {
+  height: 30em;
+  position: relative;
+}
+
+.grow {
+  font-family: Merriweather;
+  position: absolute;
 }
 
 .textcolumns {
@@ -198,12 +207,15 @@ blockquote {
 
 .facilities {}
 
+.fancy {
+
+}
 .pans {
   flex-wrap: wrap;
 }
 
 .pots {
-  max-width: 100px;
+  max-width: 150px;
   height: auto;
 }
 
@@ -217,6 +229,7 @@ td {
   border: 1px solid;
   padding: 20px;
 }
+
 .tablecenter {
   text-align: center;
 }
@@ -230,10 +243,12 @@ td {
   font-weight: lighter;
   background-color: #FFFFFF;
   margin: 200px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .input {
@@ -241,6 +256,10 @@ td {
   border-bottom: 1px solid #968772;
   padding: 10px;
   width: 400px;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 115%;
+  color: #968772;
 }
 
 .input:focus {
@@ -250,7 +269,12 @@ td {
 .button {
   background-color: #968772;
   color: #F2F1E8;
-  padding: 10px;
+  padding: 20px;
+  margin: 20px;
+  border: 0 solid;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 125%;
 }
 
 .button:hover {
