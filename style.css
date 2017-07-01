@@ -40,6 +40,12 @@ h1 {
   margin-top: 40px;
 }
 
+h2 {
+  font-family: Merriweather;
+  font-weight: 300;
+  font-size: 175%;
+}
+
 h3 {
   font-size: 200%;
   font-weight: lighter;
