@@ -53,8 +53,7 @@ h4 {
   font-size: 120%;
   padding: 10px;
   color: white;
-  margin-left: 5px
-  ;
+  margin-left: 5px;
 }
 
 h5 {
@@ -75,11 +74,17 @@ h7 {
   font-weight: 400;
   text-align: center;
 }
-
-
+p{
+  padding-right: 10px
+}
 .container {
   padding-left: 75px;
   padding-right: 75px;
+}
+
+.container2 {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .products {
@@ -108,33 +113,26 @@ h7 {
   margin-top: -70px;
 }
 
-img {
-  /*display: block;*/
-}
-
 .wrapper {
   width: 100%;
   margin: 0;
   background-color: #FFFFFF;
-}
-
-#main-navigation .home {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-/*.anchor {
-  display: flex;
-  align-items: center;
   justify-content: center;
-}*/
+}
+
 
 #logo {
   max-height: 40px;
   padding: 10px;
   margin: 0;
+  /*position: relative;*/
+}
+
+.nav {
+  margin: auto;
+  word-spacing: 50px
+
 }
 
 .wide {
@@ -174,6 +172,10 @@ a:hover {
   color: #CD5D67;
 }
 
+a:active {
+  color: #968772;
+}
+
 .birdhouse {
   float: left;
   max-width: 100px;
@@ -208,8 +210,8 @@ blockquote {
 
 .fancy {
   flex: 3;
-
 }
+
 .pans {
   flex: 1;
 }
@@ -223,7 +225,6 @@ table {
   border: 1px solid;
   border-collapse: collapse;
   margin-right: auto;
-
 }
 
 td {
@@ -235,19 +236,17 @@ td {
   text-align: center;
 }
 
-#beige {
+.beige {
   background-color: black;
 }
 
-#beige2 {
-  background-color: black;
-}
 
 .newsletter {
   font-family: Merriweather;
   font-weight: lighter;
   background-color: #FFFFFF;
-  margin: 200px;
+  margin: 300px;
+  margin-top: 100px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -288,10 +287,10 @@ td {
 }
 
 .footy {
- padding: 30px;
- width: 100%;
- margin: 0;
- background-color: #2B2F26;
- color: #F2F1E8;
- font-family: Merriweather;
+  padding: 30px;
+  width: 100%;
+  margin: 0;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  font-family: Merriweather;
 }
