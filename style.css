@@ -53,6 +53,8 @@ h4 {
   font-size: 120%;
   padding: 10px;
   color: white;
+  margin-left: 5px
+  ;
 }
 
 h5 {
@@ -74,9 +76,6 @@ h7 {
   text-align: center;
 }
 
-p {
-  padding: 10px;
-}
 
 .container {
   padding-left: 75px;
@@ -91,11 +90,13 @@ p {
 .parent1 {
   display: flex;
   justify-content: center;
+  margin: 0px;
 }
 
 .parent2 {
   display: flex;
   justify-content: center;
+  margin: 0px;
 }
 
 .stacking {
@@ -140,6 +141,7 @@ img {
   width: 600px;
   height: 300px;
   padding: 5px;
+  margin: 0px;
 }
 
 .tall {
@@ -202,16 +204,14 @@ blockquote {
 
 .textcolumns {
   display: flex;
-  flex-direction: row;
 }
 
-.facilities {}
-
 .fancy {
+  flex: 3;
 
 }
 .pans {
-  flex-wrap: wrap;
+  flex: 1;
 }
 
 .pots {
@@ -222,7 +222,8 @@ blockquote {
 table {
   border: 1px solid;
   border-collapse: collapse;
-  margin-left: 50px;
+  margin-right: auto;
+
 }
 
 td {
@@ -234,8 +235,12 @@ td {
   text-align: center;
 }
 
-.beige {
-  background-color: #000000;
+#beige {
+  background-color: black;
+}
+
+#beige2 {
+  background-color: black;
 }
 
 .newsletter {
@@ -280,4 +285,13 @@ td {
 .button:hover {
   background-color: #967343;
   color: white;
+}
+
+.footy {
+ padding: 30px;
+ width: 100%;
+ margin: 0;
+ background-color: #2B2F26;
+ color: #F2F1E8;
+ font-family: Merriweather;
 }
