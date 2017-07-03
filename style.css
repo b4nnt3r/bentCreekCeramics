@@ -203,6 +203,7 @@ blockquote {
 .plant {
   height: 30em;
   position: relative;
+  width: 150%;
 }
 
 .grow {
