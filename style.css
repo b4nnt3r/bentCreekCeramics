@@ -201,14 +201,16 @@ blockquote {
 }
 
 .plant {
-  height: 30em;
+  height: 20em;
   position: relative;
   width: 150%;
+  object-fit: cover;
 }
 
 .grow {
   font-family: Merriweather;
   position: absolute;
+  margin-top: 100px
 }
 
 .textcolumns {
